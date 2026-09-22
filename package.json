@@ -1,0 +1,30 @@
+{
+  "name": "career-compass",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI-powered career fit assessment app for users in India",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node test/smoke.test.js",
+    "test:ui": "node test/e2e.test.js"
+  },
+  "keywords": [
+    "career",
+    "assessment",
+    "ai",
+    "india"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "@hono/node-server": "^1.13.0",
+    "dotenv": "^16.4.0",
+    "hono": "^4.6.0",
+    "openai": "^7.21.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^23.0.0"
+  }
+}
